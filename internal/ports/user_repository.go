@@ -8,6 +8,3 @@ type UserRepository interface {
 	Create(user *domain.User) error
 }
 
-type SpentRepository interface {
-	Create(spent *domain.Spent) error
-}
